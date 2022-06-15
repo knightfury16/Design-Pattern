@@ -4,4 +4,5 @@
 // import './observer-pattern/index';
 // import './decorator-pattern/index';
 // import './singleton-pattern/index';
-import './chainOfRespon-pattern/index';
+// import './chainOfRespon-pattern/index';
+import './adapter-pattern/index';
