@@ -5,4 +5,5 @@
 // import './decorator-pattern/index';
 // import './singleton-pattern/index';
 // import './chainOfRespon-pattern/index';
-import './adapter-pattern/index';
+// import './adapter-pattern/index';
+import './state-pattern/index';
