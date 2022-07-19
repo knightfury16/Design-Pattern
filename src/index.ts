@@ -6,4 +6,5 @@
 // import './singleton-pattern/index';
 // import './chainOfRespon-pattern/index';
 // import './adapter-pattern/index';
-import './state-pattern/index';
+// import './state-pattern/index';
+import './composite-pattern';
