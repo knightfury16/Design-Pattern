@@ -6,4 +6,4 @@ const warning = new Warning();
 
 warning.setNext(error);
 
-console.log(warning.handle('div!0'));
+console.log(warning.handle('error'));
