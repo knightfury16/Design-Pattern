@@ -1,18 +1,16 @@
-import { Pizza } from "./Pizza";
+import { Pizza } from '../productInterface/Pizza';
 
-export abstract class PizzaStore{
+export abstract class PizzaStore {
+  orderPizza(type: string): Pizza {
+    let pizza: Pizza = this.createPizza(type);
 
-	orderPizza(type: string):Pizza{
+    pizza.prepare();
+    pizza.bake();
+    pizza.cut();
+    pizza.box();
 
-		let pizza: Pizza = this.createPizza(type);
+    return pizza;
+  }
 
-		pizza.prepare();
-		pizza.bake();
-		pizza.cut();
-		pizza.box();
-		
-		return pizza;
-	}
-
-	protected abstract createPizza(type: string):Pizza
+  protected abstract createPizza(type: string): Pizza;
 }
